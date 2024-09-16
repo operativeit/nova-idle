@@ -9,7 +9,7 @@ Nova 4 package to detect idle/non active user, notice and autologout
 
 ## Usage
 
-When you install this package it's automaticcaly injected to nova.
+When you install this package it's automatically injected to nova.
 
 
 ## Configuration

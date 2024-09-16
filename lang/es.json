@@ -1,0 +1,8 @@
+{
+"novaIdle.noticeTitle":"Aviso de desconexión automática",
+"novaIdle.noticeMessage": "Se ha superado el tiempo de inactividad permitido. Por seguridad, la sesión se cerrará automáticamente en el tiempo indicado.",
+"novaIdle.remainingTime": "tiempo restante",
+"novaIdle.stayConnected": "seguir conectado",
+"novaIdle.closeSession" : "cerrar session"
+}
+

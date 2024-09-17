@@ -82,7 +82,7 @@ export default {
       diff: 0,
       minutes: "",
       seconds: "",
-      show: true,
+      show: false,
       action: {
             modalSize: 'sm',
             modalStyle: 'window',

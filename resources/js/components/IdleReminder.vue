@@ -1,5 +1,5 @@
 <template>
-  aabc {{display}}
+  <span v-if="config.debug">{{display}}</span>
   <Modal
     :show="show"
     role="dialog"

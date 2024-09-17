@@ -26,8 +26,6 @@ class ToolServiceProvider extends ServiceProvider
         $this->loadTranslations(__DIR__ . '/../lang', 'nova-idle', true);
 
         if ($this->app->runningInConsole()) {
-	    dump('runningInConsole');
-
             // Publish config
             $this->publishes([
                 __DIR__ . '/../config/' => config_path(),

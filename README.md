@@ -5,12 +5,33 @@ Nova 4 package to detect idle/non active user, notice and autologout
 
 ## Installation
 
-`composer require eom-plus/nova-idle`
+You can install the nova tool in to a Laravel app that uses [Nova](https://nova.laravel.com) via composer:
+
+```bash
+composer require eom-plus/nova-idle
+```
+
+Next up, you must register the tool with Nova. This is typically done in the `tools` method of the `NovaServiceProvider`.
+
+```php
+// in app/Providers/NovaServiceProvider.php
+
+// ...
+
+public function tools()
+{
+    return [
+        // ...
+        new \EomPlus\NovaIdle\NovaIdle(),
+    ];
+}
+```
+
+## Configuration
 
 ## Usage
 
-When you install this package it's automatically injected to nova.
-
+When you register this package it's automatically injected to nova.
 
 ## Configuration
 
